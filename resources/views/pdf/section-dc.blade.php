@@ -157,9 +157,9 @@
         <th width="12px" >#</th>
         <th width="22px">Order&nbsp;No</th>
         <th width="225px" >Style&nbsp;No</th>
-        <th>Colour</th>
-        <th>Sizes</th>
-        <th width="70px" >Quantity</th>
+        <th width="65px">Colour</th>
+        <th width="20px">Sizes</th>
+        <th width="50px" >Quantity</th>
     </tr>
     </thead>
     <tbody>
@@ -281,7 +281,6 @@
     @for($i = 0; $i < 10-$list->count(); $i++)
 
         <tr>
-            <td align="center">&nbsp;</td>
             <td align="center">&nbsp;</td>
             <td align="center">&nbsp;</td>
             <td align="center">&nbsp;</td>
